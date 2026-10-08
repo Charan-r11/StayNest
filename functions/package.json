@@ -1,0 +1,21 @@
+{
+  "name": "staynest-functions",
+  "version": "1.0.0",
+  "description": "Cloud Functions for StayNest Email OTP & Maintenance Staff Authorization",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0",
+    "nodemailer": "^6.9.13"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "private": true
+}

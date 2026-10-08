@@ -1,0 +1,53 @@
+[versions]
+agp = "9.4.1"
+kotlin = "2.0.21"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.12.0"
+activityCompose = "1.9.0"
+composeBom = "2024.06.00"
+navigationCompose = "2.7.7"
+lifecycleRuntime = "2.8.1"
+firebaseBom = "33.1.0"
+playServicesAuth = "21.2.0"
+coroutinesTest = "1.8.1"
+
+[libraries]
+coreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+extJunit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activityCompose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+
+composeBom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+composeUi = { group = "androidx.compose.ui", name = "ui" }
+composeGraphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+composeTooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+composePreview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+composeTestManifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+composeTestJunit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+composeMaterial3 = { group = "androidx.compose.material3", name = "material3" }
+composeIcons = { group = "androidx.compose.material", name = "material-icons-extended" }
+
+navigationCompose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+lifecycleRuntimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntime" }
+lifecycleViewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleRuntime" }
+
+firebaseBom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebaseAuth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
+firebaseFirestore = { group = "com.google.firebase", name = "firebase-firestore-ktx" }
+firebaseFunctions = { group = "com.google.firebase", name = "firebase-functions-ktx" }
+playServicesAuth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
+
+coroutinesTest = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutinesTest" }
+
+[plugins]
+androidApp = { id = "com.android.application", version.ref = "agp" }
+kotlinApp = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+googleServices = { id = "com.google.gms.google-services", version = "4.4.2" }
