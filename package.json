@@ -1,0 +1,12 @@
+{
+  "name": "staynest",
+  "version": "1.0.0",
+  "description": "StayNest - Native Android & Cross-Platform iOS/Android PG Accommodation App",
+  "main": "react-native/node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "cd react-native && npm start",
+    "ios": "cd react-native && npm run ios",
+    "android": "cd react-native && npm run android"
+  },
+  "private": true
+}

@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "StayNest",
+    "slug": "staynest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#7A1C2C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.staynest"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#7A1C2C"
+      },
+      "package": "com.example.staynest"
+    }
+  }
+}
